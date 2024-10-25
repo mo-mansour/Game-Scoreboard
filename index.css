@@ -30,11 +30,14 @@ body {
 }
 
 .home-container, .guest-container {
-    margin-right: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.home-container {
+    margin-right: 40px;
 }
 
 h3 {
@@ -95,7 +98,8 @@ button:hover {
 button.new-game {
     width: 40%;
     height: 60px;
-    background-color: #F94F6D;
+    background-color: #121830;
+    /*background-color: #F94F6D;*/
     color: #ffffff;
     border: none;
     font-size: 20px;
@@ -103,6 +107,6 @@ button.new-game {
 }
 
 .new-game:hover {
-    background-color: #AD374C;
+    background-color: #0D1124;
 }
 
