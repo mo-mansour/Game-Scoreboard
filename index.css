@@ -85,6 +85,12 @@ button {
     font-size: 18px;
 }
 
+button:hover {
+    border: none;
+    background: #080001;
+    cursor: pointer;
+}
+
 button.new-game {
     width: 40%;
     height: 60px;
@@ -95,13 +101,7 @@ button.new-game {
     padding: 16px 32px 16px 32px;
 }
 
-/* button {
-    background: none;
-    border: none;
-    font-family: CursedTimerUlil-Aznm;
-    font-size: 18px;
-    text-align: center;
-    line-height: 70%;
-    color: #9AABD8;
-    padding: 16px 3px;
-} */
+.new-game:hover {
+    background-color: #AD374C;
+}
+
