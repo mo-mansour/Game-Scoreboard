@@ -68,7 +68,7 @@ h5 {
     display: flex;
     justify-content: space-evenly;
     color: #9AABD8;
-    margin-top: 20px;
+    margin: 20px 10px;
 }
 
 button {
